@@ -1,0 +1,297 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "CycloneDX",
+        "name" : "cyclonedx-gradle-plugin",
+        "version" : "1.8.1"
+      }
+    ],
+    "component" : {
+      "group" : "com.mendix",
+      "name" : "temp",
+      "version" : "1.0.0",
+      "purl" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "type" : "application",
+      "bom-ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar"
+    }
+  },
+  "components" : [
+    {
+      "publisher" : "Microsoft Corporation",
+      "group" : "com.microsoft.sqlserver",
+      "name" : "mssql-jdbc",
+      "version" : "9.4.0.jre11",
+      "description" : "Microsoft JDBC Driver for SQL Server.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5a76d280dd224ef1037dcfe09723872b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a6f15b77f9a37aaaaeec829a5040efd1ddec2261"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f130c32eda730b9f8cfe601ad88d0544405d0ebea27c306746f10062d6b03eb5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4675e4cdb4b21628cd07f9cbdcee94427e0c505454cd4db474e879e7697e23861fac7fb5ba6c43c81a5ad949b7c53c8063f6957cc1333bc80be30085badd399d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f18ea4448d764a4ad92519490b5440040223fce77c54205a28a108fed21391db4fb4d4174663469509542e445810c3c9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "83849a39c03cfedefbc8261d8a8b3db7ee5f92038b4d284deeb296d42c3b6c3928a5d60b323dda079cbe03ccd195b768"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1a0d2c3c903eb653f4d4e34e4daea3aff32113f0a92cc8af7ca467fa37022f9c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d0fc4ed61dcb4e1934c8136bbc9aab7b9225bdcf1f18d1bcb4a72728cd9348754ec5f00f022371c8b67eb62c1e6be86ec5b85559f72982a3c3cbb8f22337d0b7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@9.4.0.jre11?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/Microsoft/mssql-jdbc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@9.4.0.jre11?type=jar"
+    },
+    {
+      "group" : "com.oracle.database.jdbc",
+      "name" : "ojdbc8",
+      "version" : "21.9.0.0",
+      "description" : "Oracle JDBC Driver compatible with JDK8, JDK11, JDK12, JDK13, JDK14 and JDK15",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d23c84482e9524de3a29a3816b4d6fcd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a68f29ad2376bdb8c04a87cda70c62907995855d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e7bbab05994715e2810fc20e7ac4052905c5b604a0a1fb2b2f8a9d2f9a5c2c84"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "306f24ed586a92bb4a9263f3e49351a66cfbf812827867aa326edba7698bf61724ca7f7b172b901d382ad52098a5f5a555371681a9a68e0337e60136c6a01212"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "52527c04e471e1994e500116e55faac27c2572bfcb212f597567d6efc35c0150c5d0edc0d5261b2633043771edb7ab7c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "39a3c2ad7691f964507d560b2a91b5241ffd4903fa79f618cb742ca9a0e8f01370c5c83c07577c846d97b45d17da728e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "132da1a72f72f101e8c58d5039eb9f6f90b329352cbe0e21986f7c87729ba9c2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "359885f0925468c625fe3b15dc92b3ab06ba9aa3b844f4c6c53781519f66b44885517aca6b69ed73e2feb6d8fc2d52adbfa0bce653127ac472014a8168d5a150"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Oracle Free Use Terms and Conditions (FUTC)",
+            "url" : "https://www.oracle.com/downloads/licenses/oracle-free-license.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.oracle.database.jdbc/ojdbc8@21.9.0.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : ""
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.oracle.database.jdbc/ojdbc8@21.9.0.0?type=jar"
+    },
+    {
+      "group" : "org.checkerframework",
+      "name" : "checker-qual",
+      "version" : "3.5.0",
+      "description" : "Checker Qual is the set of annotations (qualifiers) and supporting classes used by the Checker Framework to type check Java source code. Please see artifact: org.checkerframework:checker",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4464def1ed5c10f248ebfe1bccbedf1a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2f50520c8abea66fbd8d26e481d3aef5c673b510"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "407d0ac59b02cbef7d93f25c8b287cd587232aa5ddfee6d2c7ba34d712565b0a5adfe52b5daa20d3e6c3ab1e7a5f8b08698078d9179185a1b35ada1eb92213bf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "01fb1d7a7440f807b2bdb697c709dfa5897edc0755152c0fef465cf77dd820623fccb410ad033e3d52d4b0bc57409ecf"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "626beff2173578c3a2ad732c81c48a9b091c9ffdea7d50f4b812fd14cd8299ab7a726b052808490b1022faca69aa6e91"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4fbe95b196e75e549f66831e9b1f8f46cfe1793f4fda350857f5f24349d74af1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2c84365b1fcd16a765e49c5d8f30f28c3fe7cfe868ac32be726d8b9351c9053ffea23cfa1db9fb5c59c9928d22ad01c3c894d798e115bc446447228c7c4b24c6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/typetools/checker-framework.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar"
+    },
+    {
+      "publisher" : "PostgreSQL Global Development Group",
+      "group" : "org.postgresql",
+      "name" : "postgresql",
+      "version" : "42.5.4",
+      "description" : "PostgreSQL JDBC Driver Postgresql",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1271e655f84661d032b9309d99a15d42"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "015015a54f15e340a9a8a6a2c5457429cb1176b8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f48fcb0b6959bc8b478657f57ba43c1acca4cade6abca5f17bf9bc9c363cb66f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1510eb99cf97911370c4c8f3b76cf28f5e99b3b5c2f029fbeb403c56fd8a74b655f4b6669763ae4215041cea523fcba3d1ae8ce5d03996c63091800a82fe183b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "16c7311462d14c27be02419a89a5537117fc15d0cc1940950d192a52684e5c40cdae1a7c837973885b455fa0e0a80420"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "013437c5280b7704ce7e524c1c8aca58aea0ec022fef8769072e18d8ab6c55c77e590143fb4c8ee34abf8d831712030d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "dfc278812c92e61bc8611c43b5e671307db02e6d9044589b7937aba617d1cf18"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a8402e37e58c348f2d4019e8663150c3e724a02908d98f7a722c9117c180abc2248ae51adb8083943158f89a3410d424bac1c86af41baeb08ff9777dc3ba7c21"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-2-Clause",
+            "url" : "https://opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.postgresql/postgresql@42.5.4?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jdbc.postgresql.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/pgjdbc/pgjdbc/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://www.postgresql.org/list/pgsql-jdbc/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/pgjdbc/pgjdbc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.postgresql/postgresql@42.5.4?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.postgresql/postgresql@42.5.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.oracle.database.jdbc/ojdbc8@21.9.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@9.4.0.jre11?type=jar",
+        "pkg:maven/com.oracle.database.jdbc/ojdbc8@21.9.0.0?type=jar",
+        "pkg:maven/org.postgresql/postgresql@42.5.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@9.4.0.jre11?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}
